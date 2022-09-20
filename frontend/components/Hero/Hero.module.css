@@ -1,0 +1,11 @@
+.hero-container {
+    display: flex;
+    min-height: 80vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-card {
+    width: 20vw;
+}

@@ -1,0 +1,42 @@
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0 0 2rem;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10rem 0 0 4rem;
+    width: 50vw;
+}
+
+.button {
+    margin: 2rem 0 2rem 0;
+    height: 4rem;
+    width: 50%;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.spinner {
+    height: 3rem;
+    width: 3rem;
+}
+
+.modalContainer {
+    display: flex;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1600px) {
+    .button {
+        height: 8rem;
+    }
+}
+

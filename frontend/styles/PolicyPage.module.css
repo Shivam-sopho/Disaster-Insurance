@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0 0 3rem;
+    width: 20vw;
+}
+
+.button {
+    margin: 3rem 0 0 5rem;
+}
+
+.topMargin {
+    margin-top: 2rem;
+}
