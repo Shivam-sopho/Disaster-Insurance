@@ -162,7 +162,7 @@ const PremiumPaymentPage = () => {
     event.preventDefault();
     setShowCardDialog(false);
     setIsCardTransactionPending(true);
-    const payload = JSON.stringify(getCardPayload());
+    const payload = JSON.stringify(await getCardPayload());
     
     const response = await fetch("/api/pay-premium-emi", {
       method: "POST",
